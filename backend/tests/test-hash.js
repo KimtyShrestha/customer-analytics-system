@@ -1,5 +1,5 @@
-const { normalisePhone } = require('./src/utils/phone');
-const { hashCustomer } = require('./src/utils/hash');
+const { normalisePhone } = require('../src/utils/phone');
+const { hashCustomer } = require('../src/utils/hash');
 
 const inputs = [
   '9841234567',
