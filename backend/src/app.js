@@ -13,6 +13,7 @@ app.get('/api/health', (req, res) => {
 
 app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/imports', require('./routes/import.routes'));
+app.use('/api/analytics', require('./routes/analytics.routes'));
 
 // 404
 app.use((req, res) => {
